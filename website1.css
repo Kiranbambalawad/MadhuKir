@@ -1,0 +1,241 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(Nature2.jpg);
+    height: 109vh;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    height: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: #ff7200;
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    height: 70px;
+    width: 400px;
+    float: left;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 34px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    float: left;
+    width: 290px;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    background: transparent;
+    margin-top: 20px;
+    color: #ffff;
+    border-right: none;
+    border: 0.5px solid #ff7200;
+    font-size: 16px;
+    float: left;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btn{
+    width: 90px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 20px;
+    color: #ffff;
+    font-size: 16px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #ffff;
+    position: relative;
+}
+.content p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 200px;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+.cn:hover{
+    background-color: aliceblue;
+}
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 385px;
+    background: linear-gradient(rgba(36, 36, 36, 0.75),rgba(0,0,0,0.75));
+    position: absolute;
+    top: -30px;
+    left: 820px;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    color: #ff7200;
+    background-color: #ffff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    margin: 2px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #ffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #ffff;
+    font-family: Arial;
+}
+.Login-btn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 18px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffff;
+    transition: 0.4s ease;
+
+}
+.Login-btn:hover{
+    background: #ffff;
+    color: #ff7200;
+}
+.Login-btn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form.link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+    margin-left: 50px;
+
+}
+.liw{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: -20px;
+    margin-right: 20px ;
+}
+.icons a{
+    text-decoration: none;
+    color: #ffff;
+}
+.icons ion-icon{
+    color: #ffff;
+    font-size: 30px;
+    padding-left: 25px;
+    padding-top: -10px;
+    transition: 0.3s ease;
+}
+.icon ion-icon:hover{
+    color: #ff7200;
+}
